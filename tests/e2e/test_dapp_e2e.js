@@ -33,7 +33,11 @@ describe('firoxy AI DApp End-to-End Tests', () => {
     cy.get('h1').should('contain.text', 'Ontora AI');
     cy.get('button').contains('Connect Wallet').should('be.visible');
     cy.get('nav').should('be.visible');
-  });
+  
+  
+});
+
+  RADARE Instant Arbitrage
 
   it('should connect a Solana wallet successfully', () => {
     // Simulate clicking the "Connect Wallet" button
